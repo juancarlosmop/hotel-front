@@ -20,7 +20,7 @@ export const AppRouter=()=>{
           <Route element={<LayoutWithNavbar/>}>
           <Route path="/login" element={<LoginForm/>}/>
           <Route path="/register" element={<RegisterForm/>} />
-          <Route path="/home" element={<HomePage/>}/>
+          <Route path="/" element={<HomePage/>}/>
             <Route element={<ProtectedRoute allowedRoles={['USER']} />}>
                 {UserRoutes()}
             </Route>

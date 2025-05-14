@@ -15,7 +15,7 @@ export const Navbar = ()=>{
     return(
     <nav className="bg-white shadow-md">
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-        <Link className="text-2xl font-bold text-blue-600" to="/home">Hotel</Link>
+        <Link className="text-2xl font-bold text-blue-600" to="/">Hotel</Link>
         <div className="md:hidden">
           <button onClick={() => setIsOpen(!isOpen)} className="text-gray-700 focus:outline-none">
             ☰
